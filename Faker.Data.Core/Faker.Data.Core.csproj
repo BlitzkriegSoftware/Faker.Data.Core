@@ -1,7 +1,16 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jacob Ferm and Stuart Williams</Authors>
+    <Description>Clone of https://github.com/FermJacob/Faker.Data and port to .NET Standard 2.0</Description>
+    <Company>FermJacob</Company>
+    <Copyright>(c) 2016 - FermJacob</Copyright>
+    <PackageProjectUrl>https://github.com/BlitzkriegSoftware/Faker.Data.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BlitzkriegSoftware/Faker.Data.Core</RepositoryUrl>
+    <PackageTags>Fake-Data</PackageTags>
+    <PackageReleaseNotes>This is the first port, I dropped Finince.cs for speed</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

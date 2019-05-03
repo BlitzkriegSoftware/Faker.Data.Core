@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/BlitzkriegSoftware/Faker.Data.Core/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/BlitzkriegSoftware/Faker.Data.Core</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First port of Faker.Data by Jacob Ferm.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Fake Data DotNet Standard</tags>
+  </metadata>
+</package>
