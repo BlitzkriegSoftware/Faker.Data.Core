@@ -8,7 +8,7 @@
     <owners>$author$</owners>
     <licenseUrl>https://github.com/BlitzkriegSoftware/Faker.Data.Core/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/BlitzkriegSoftware/Faker.Data.Core</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://github.com/BlitzkriegSoftware/Faker.Data.Core/blob/master/Faker.Data.Core/blizkrieglogo300.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>First port of Faker.Data by Jacob Ferm.</releaseNotes>

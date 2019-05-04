@@ -14,6 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="blizkrieglogo300.png" />
     <None Remove="Data.xml" />
   </ItemGroup>
 
@@ -26,6 +27,12 @@
     <EmbeddedResource Include="Data.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="blizkrieglogo300.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
