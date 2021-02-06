@@ -31,13 +31,13 @@ namespace Faker.Extensions
         /// </summary>
         /// <typeparam name="T">Any type</typeparam>
         /// <param name="items">List of items</param>
-        /// <returns>A <see cref="T"/></returns>
+        /// <returns>Type T to Return</returns>
         public static T Rand<T>(this IEnumerable<T> items)
         {
             IList<T> list;
-            if (items is IList<T>)
+            if (items is IList<T> list1)
             {
-                list = (IList<T>)items;
+                list = list1;
             }
             else
             {
@@ -57,9 +57,9 @@ namespace Faker.Extensions
         public static IEnumerable<T> RandPick<T>(this IEnumerable<T> items, int itemsToTake)
         {
             IList<T> list;
-            if (items is IList<T>)
+            if (items is IList<T> list1)
             {
-                list = (IList<T>)items;
+                list = list1;
             }
             else
             {

@@ -5,17 +5,15 @@
 //-----------------------------------------------------------------------
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Diagnostics.CodeAnalysis;
 using System.Text.RegularExpressions;
 
 namespace Faker.Tests
 {
-    [SuppressMessage("StyleCop.CSharp.DocumentationRules", "*", Justification = "Reviewed")]
     [TestClass]
     public class UserTests
     {
-        private static readonly string SpecialCharactersRegex = @"^(?=.*[a-z])(?=.*[\W])(?=.*[A-Z]){5,20}";
-        private static readonly string NoSpecialCharactersRegex = @"^(?=.*[a-zA-Z]){5,20}";
+        private const string SpecialCharactersRegex = @"^(?=.*[a-z])(?=.*[\W])(?=.*[A-Z]){5,20}";
+        private const string NoSpecialCharactersRegex = @"^(?=.*[a-zA-Z]){5,20}";
         ////@"(?=^.{6,255}$)((?=.*\d)(?=.*[A-Z])(?=.*[a-z])|(?=.*\d)(?=.*[^A-Za-z0-9])(?=.*[a-z])|(?=.*[^A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z])|(?=.*\d)(?=.*[A-Z])(?=.*[^A-Za-z0-9]))^.*";
 
         [TestMethod]

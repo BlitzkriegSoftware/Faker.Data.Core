@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CS0649: Field 'Computer.exts' is never assigned to, and will always have its default value null
+dotnet_diagnostic.CS0649.severity = none
+
+# IDE1006: Naming Styles
+dotnet_diagnostic.IDE1006.severity = none

@@ -45,7 +45,7 @@ namespace Faker.Extensions
         /// </summary>
         /// <typeparam name="T">Any Type</typeparam>
         /// <param name="num">An <see cref="int"/></param>
-        /// <param name="toReturn"><see cref="T"/> to return</param>
+        /// <param name="toReturn">Type T to return</param>
         /// <returns>An <see cref="IEnumerable{T}"/> list</returns>
         public static IEnumerable<T> Times<T>(this int num, T toReturn)
         {

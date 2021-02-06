@@ -1,0 +1,1430 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Faker.Data.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Faker.Address">
+            <summary>
+            Static class for addresses
+            </summary>
+        </member>
+        <member name="M:Faker.Address.State">
+            <summary>
+            Gets a random state
+            </summary>
+            <returns>String of a state</returns>
+        </member>
+        <member name="M:Faker.Address.StateAbbreviation">
+            <summary>
+            Gets a random state abbreviation
+            </summary>
+            <returns>String of state abbreviation</returns>
+        </member>
+        <member name="M:Faker.Address.Province">
+            <summary>
+            Gets a random province
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.ProvinceAbbreviation">
+            <summary>
+            Gets a random province abbreviation
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.StreetName">
+            <summary>
+            Gets a random street name
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.CanadianZipCode">
+            <summary>
+            Gets a random Canadian zip
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.Country">
+            <summary>
+            Gets a random country
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.CityPrefix">
+            <summary>
+            Gets a random city prefix
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.CitySuffix">
+            <summary>
+            Gets a random city suffix
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.SecondaryAddress">
+            <summary>
+            Gets a random secondary address
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.StreetSuffix">
+            <summary>
+            Gets a random street suffix
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.USZipCode">
+            <summary>
+            Gets a random united states zip code
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.USCity">
+            <summary>
+            Gets a random United States city
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Address.USCounty">
+            <summary>
+            Gets a random United States county
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="T:Faker.Book">
+            <summary>
+            Static book class
+            </summary>
+        </member>
+        <member name="T:Faker.Colors">
+            <summary>
+            Static color class
+            </summary>
+        </member>
+        <member name="M:Faker.Colors.RGB">
+            <summary>
+            Get a set of RGB colors 
+            </summary>
+            <returns>Returns an integer array of numbers 0 - 255</returns>
+        </member>
+        <member name="M:Faker.Colors.Hex">
+            <summary>
+            Get a random HEX number
+            </summary>
+            <returns>A HEX number as a string</returns>
+        </member>
+        <member name="M:Faker.Colors.SystemColor">
+            <summary>
+            Gets a random system color
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Colors.ColorString">
+            <summary>
+            Gets a random color
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="T:Faker.Commerce">
+            <summary>
+            Static Commerce class
+            </summary>
+        </member>
+        <member name="M:Faker.Commerce.Department">
+            <summary>
+            Gets a random department
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Commerce.Departments">
+            <summary>
+            Gets a list of random departments
+            </summary>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.Departments(System.Int32)">
+            <summary>
+            Gets a list of random departments
+            </summary>
+            <param name="numberOfDepartments">Number of departments</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.Product">
+            <summary>
+            Gets a random product
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Commerce.Products">
+            <summary>
+            Gets a list of random products
+            </summary>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.Products(System.Int32)">
+            <summary>
+            Gets a list of random products
+            </summary>
+            <param name="numberOfProducts">Number of products</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductAdjective">
+            <summary>
+            Gets a random product adjective
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductAdjectives">
+            <summary>
+            Gets a list of random product adjectives
+            </summary>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductAdjectives(System.Int32)">
+            <summary>
+            Gets a list of random product adjectives
+            </summary>
+            <param name="numberOfAdjectives">Number of adjectives</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductMaterial">
+            <summary>
+            Gets a random product material
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductMaterials">
+            <summary>
+            Gets a list of random product materials
+            </summary>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductMaterials(System.Int32)">
+            <summary>
+            Gets a list of random product materials
+            </summary>
+            <param name="numberOfMaterials">Number of materials</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductName">
+            <summary>
+            Gets a random product name
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductNames">
+            <summary>
+            Gets a list of random product names
+            </summary>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.ProductNames(System.Int32)">
+            <summary>
+            Gets a list of random product names
+            </summary>
+            <param name="numberOfProductNames">Number of names</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.Price(System.Decimal,System.Decimal,System.Int32,System.String)">
+            <summary>
+            Gets a random price
+            </summary>
+            <param name="min">Minimum amount</param>
+            <param name="max">Maximum amount</param>
+            <param name="decimals">Number of decimals</param>
+            <param name="symbol">Symbol to append</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Commerce.Price(System.String)">
+            <summary>
+            Gets a random price
+            </summary>
+            <param name="symbol">Symbol to append</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Commerce.Prices(System.String)">
+            <summary>
+            Gets a list of random product prices
+            </summary>
+            <param name="symbol">Symbol to append</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="M:Faker.Commerce.Prices(System.String,System.Int32)">
+            <summary>
+            Gets a list of random product prices
+            </summary>
+            <param name="symbol">Symbol to append</param>
+            <param name="numberOfPrices">Number of prices</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/> of strings</returns>
+        </member>
+        <member name="T:Faker.Company">
+            <summary>
+            Static company class
+            </summary>
+        </member>
+        <member name="M:Faker.Company.Suffix">
+            <summary>
+            Gets a suffix value
+            </summary>
+            <returns>String of suffix</returns>
+        </member>
+        <member name="M:Faker.Company.Sector">
+            <summary>
+            Gets a random sector
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Company.Industry">
+            <summary>
+            Gets a random industry
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Company.Symbol">
+            <summary>
+            Gets a random symbol
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Company.CatchPhrase">
+            <summary>
+            Method to get a catch phrase
+            </summary>
+            <returns>String of catch phrase</returns>
+        </member>
+        <member name="M:Faker.Company.CatchPhrasePre">
+            <summary>
+            Gets the pre catch phrase
+            </summary>
+            <returns>String value</returns>
+        </member>
+        <member name="M:Faker.Company.CatchPhraseMid">
+            <summary>
+            Gets the mid catch phrase
+            </summary>
+            <returns>String value</returns>
+        </member>
+        <member name="M:Faker.Company.CatchPhrasePos">
+            <summary>
+            Gets the post catch phrase
+            </summary>
+            <returns>String value</returns>
+        </member>
+        <member name="T:Faker.Computer">
+            <summary>
+            Static class for computer generation
+            </summary>
+        </member>
+        <member name="M:Faker.Computer.FileName(System.String)">
+            <summary>
+            Get a random file name
+            </summary>
+            <param name="ext">An extension</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Computer.CommonFileName(System.String)">
+            <summary>
+            Gets a common filename
+            </summary>
+            <param name="ext">An extension</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Computer.CommonFileType">
+            <summary>
+            Returns a commonly used file type
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Computer.CommonFileExt">
+            <summary>
+            Returns a commonly used file extension
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Computer.FileType">
+            <summary>
+            Returns any file type available as mime-type
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Computer.FileExt(System.String)">
+            <summary>
+            Gets a random extension for the given mime type.
+            </summary>
+            <param name="mimeType">A meme type</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Computer.SemanticVersion">
+            <summary>
+            Get a random Semantic Version version string.
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Computer.Version">
+            <summary>
+            Get a random `System.Version`
+            </summary>
+            <returns>A <see cref="M:Faker.Computer.Version"/></returns>
+        </member>
+        <member name="M:Faker.Computer.Exception">
+            <summary>
+            Get a random `Exception` with a fake stack trace.
+            </summary>
+            <returns>A <see cref="M:Faker.Computer.Exception"/></returns>
+        </member>
+        <member name="T:Faker.CreditCard">
+            <summary>
+            Credit card class
+            </summary>
+        </member>
+        <member name="M:Faker.CreditCard.CreditCardType">
+            <summary>
+            Gets a random credit card type
+            </summary>
+            <returns>string of random credit card</returns>
+        </member>
+        <member name="T:Faker.Currency">
+            <summary>
+            Static currency class
+            </summary>
+        </member>
+        <member name="T:Faker.Date">
+            <summary>
+            Class for date generation
+            </summary>
+        </member>
+        <member name="M:Faker.Date.Between(System.DateTime,System.DateTime)">
+            <summary>
+            Gets a random <see cref="T:System.DateTime"/> between two dates
+            </summary>
+            <param name="from">The from value</param>
+            <param name="to">The to value</param>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.Birthday(System.Int32,System.Int32)">
+            <summary>
+            Gets a random birthday based on age
+            </summary>
+            <param name="minAge">Minimum age</param>
+            <param name="maxAge">Maximum age</param>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.ForwardWithTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets a random date and time in the future
+            </summary>
+            <param name="years">Years forward</param>
+            <param name="months">Months forward</param>
+            <param name="days">Days forward</param>
+            <param name="hours">Hours forward</param>
+            <param name="minutes">Minutes forward</param>
+            <param name="seconds">Seconds forward</param>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.ForwardWithTime">
+            <summary>
+            Gets a random date and time in the future
+            </summary>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.Forward(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets a random date in the future
+            </summary>
+            <param name="years">Years forward</param>
+            <param name="months">Months forward</param>
+            <param name="days">Days forward</param>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.Forward">
+            <summary>
+            Gets a random date in the future
+            </summary>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.Past">
+            <summary>
+            Gets a random date in the past
+            </summary>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.PastWithTime">
+            <summary>
+            Gets a random date and time in the future
+            </summary>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.PastWithTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets a random date and time in the past
+            </summary>
+            <param name="years">Years forward</param>
+            <param name="months">Months forward</param>
+            <param name="days">Days forward</param>
+            <param name="hours">Hours forward</param>
+            <param name="minutes">Minutes forward</param>
+            <param name="seconds">Seconds forward</param>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.Past(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets a random date and time in the past
+            </summary>
+            <param name="years">Years forward</param>
+            <param name="months">Months forward</param>
+            <param name="days">Days forward</param>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.Recent(System.Int32)">
+            <summary>
+            Gets a recent date and time
+            </summary>
+            <param name="days">Days recent</param>
+            <returns>A <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:Faker.Date.MonthShort">
+            <summary>
+            Gets a random short month
+            </summary>
+            <returns>A string</returns>
+        </member>
+        <member name="M:Faker.Date.Month">
+            <summary>
+            Gets a random long month
+            </summary>
+            <returns>A string</returns>
+        </member>
+        <member name="M:Faker.Date.Weekday">
+            <summary>
+            Gets a random weekday
+            </summary>
+            <returns>A string</returns>
+        </member>
+        <member name="M:Faker.Date.Day">
+            <summary>
+            Gets a random day
+            </summary>
+            <returns>An integer</returns>
+        </member>
+        <member name="M:Faker.Date.Year">
+            <summary>
+            Gets a random year
+            </summary>
+            <returns>An integer</returns>
+        </member>
+        <member name="T:Faker.Education">
+            <summary>
+            Static education class
+            </summary>
+        </member>
+        <member name="M:Faker.Education.Major">
+            <summary>
+            Gets a random major
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="T:Faker.Extensions.EnumerableExtensions">
+            <summary>
+            Enumerable Extensions class
+            </summary>
+        </member>
+        <member name="M:Faker.Extensions.EnumerableExtensions.Join``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            Join method of list to string
+            </summary>
+            <typeparam name="T">Any type</typeparam>
+            <param name="items">Item list</param>
+            <param name="separator">Separator string</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Extensions.EnumerableExtensions.Rand``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Picks a random type from the list
+            </summary>
+            <typeparam name="T">Any type</typeparam>
+            <param name="items">List of items</param>
+            <returns>Type T to Return</returns>
+        </member>
+        <member name="M:Faker.Extensions.EnumerableExtensions.RandPick``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+            <summary>
+            Randomly picks a number of elements from a list
+            </summary>
+            <typeparam name="T">Any type</typeparam>
+            <param name="items">List of items</param>
+            <param name="itemsToTake">Number of items to take</param>
+            <returns>A <see cref="T:System.Collections.Generic.IEnumerable`1"/> with the specified number</returns>
+        </member>
+        <member name="M:Faker.Extensions.EnumerableExtensions.Shuffle``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Shuffles a list
+            </summary>
+            <typeparam name="T">A type</typeparam>
+            <param name="list">A list</param>
+            <returns>A <see cref="T:System.Collections.Generic.IList`1"/></returns>
+        </member>
+        <member name="M:Faker.Extensions.EnumerableExtensions.ArrayElement``1(``0[])">
+            <summary>
+            Gets a random array element
+            </summary>
+            <typeparam name="T">A type</typeparam>
+            <param name="array">The array</param>
+            <returns>A random Type</returns>
+        </member>
+        <member name="T:Faker.Extensions.NumberExtensions">
+            <summary>
+            Static number extensions class
+            </summary>
+        </member>
+        <member name="M:Faker.Extensions.NumberExtensions.To(System.Int32,System.Int32)">
+            <summary>
+            Method from one number to another
+            </summary>
+            <param name="from">From <see cref="T:System.Int32"/></param>
+            <param name="to">To <see cref="T:System.Int32"/></param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> list</returns>
+        </member>
+        <member name="M:Faker.Extensions.NumberExtensions.Times``1(System.Int32,``0)">
+            <summary>
+            Gets a set number of times for a type
+            </summary>
+            <typeparam name="T">Any Type</typeparam>
+            <param name="num">An <see cref="T:System.Int32"/></param>
+            <param name="toReturn">Type T to return</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> list</returns>
+        </member>
+        <member name="M:Faker.Extensions.NumberExtensions.Times``1(System.Int32,System.Func{System.Int32,``0})">
+            <summary>
+            Gets a set number of types
+            </summary>
+            <typeparam name="T">Type of object</typeparam>
+            <param name="count">Number of times</param>
+            <param name="function">Function to use</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/></returns>
+        </member>
+        <member name="T:Faker.Extensions.StringExtensions">
+            <summary>
+            Static string extension class
+            </summary>
+        </member>
+        <member name="M:Faker.Extensions.StringExtensions.Replace(System.String,System.Char,System.Func{System.Char})">
+            <summary>
+            Method to replace a string with an item
+            </summary>
+            <param name="str">A <see cref="T:System.String"/> to use</param>
+            <param name="item">A <see cref="T:System.Char"/></param>
+            <param name="character">Function to use</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Extensions.StringExtensions.Numerify(System.String)">
+            <summary>
+            Creates a number based on pound signs
+            </summary>
+            <param name="numberString">Number string</param>
+            <returns>A <see cref="T:System.String"/> from specified format</returns>
+        </member>
+        <member name="M:Faker.Extensions.StringExtensions.Letterify(System.String)">
+            <summary>
+            Creates a number based on question marks
+            </summary>
+            <param name="letterString">Number string</param>
+            <returns>A <see cref="T:System.String"/> from specified format</returns>
+        </member>
+        <member name="M:Faker.Extensions.StringExtensions.Bothify(System.String)">
+            <summary>
+            Combines format
+            </summary>
+            <param name="str">A <see cref="T:System.String"/></param>
+            <returns>A <see cref="T:System.String"/> from specified format</returns>
+        </member>
+        <member name="M:Faker.Extensions.StringExtensions.To(System.Char,System.Char)">
+            <summary>
+            Method to get a list a characters to and from
+            </summary>
+            <param name="from">From <see cref="T:System.Char"/></param>
+            <param name="to">To <see cref="T:System.Char"/></param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> list of characters</returns>
+        </member>
+        <member name="T:Faker.FuelPrices">
+            <summary>
+            Static fuel prices class
+            </summary>
+        </member>
+        <member name="M:Faker.FuelPrices.CompressedNaturalGas">
+            <summary>
+            Gets a compressed natural gas on today's date
+            </summary>
+            <returns>A <see cref="T:System.Double"/></returns>
+        </member>
+        <member name="M:Faker.FuelPrices.E85">
+            <summary>
+            Gets a E85 on today's date
+            </summary>
+            <returns>A <see cref="T:System.Double"/></returns>
+        </member>
+        <member name="M:Faker.FuelPrices.Diesel">
+            <summary>
+            Gets a diesel on today's date
+            </summary>
+            <returns>A <see cref="T:System.Double"/></returns>
+        </member>
+        <member name="M:Faker.FuelPrices.Electric">
+            <summary>
+            Gets a electric on today's date
+            </summary>
+            <returns>A <see cref="T:System.Double"/></returns>
+        </member>
+        <member name="M:Faker.FuelPrices.LPG">
+            <summary>
+            Gets a LPG on today's date
+            </summary>
+            <returns>A <see cref="T:System.Double"/></returns>
+        </member>
+        <member name="M:Faker.FuelPrices.Midgrade">
+            <summary>
+            Gets a midgrade on today's date
+            </summary>
+            <returns>A <see cref="T:System.Double"/></returns>
+        </member>
+        <member name="M:Faker.FuelPrices.Premium">
+            <summary>
+            Gets a premium on today's date
+            </summary>
+            <returns>A <see cref="T:System.Double"/></returns>
+        </member>
+        <member name="M:Faker.FuelPrices.Regular">
+            <summary>
+            Gets a regular on today's date
+            </summary>
+            <returns>A <see cref="T:System.Double"/></returns>
+        </member>
+        <member name="M:Faker.FuelPrices.GetFuelPriceData">
+            <summary>
+            Checks to see if the data exists, if not call the API
+            </summary>
+        </member>
+        <member name="M:Faker.FuelPrices.LoadFuelData">
+            <summary>
+            Makes an API call if provided to pull data
+            </summary>
+        </member>
+        <member name="M:Faker.FuelPrices.RunRequest(System.String)">
+            <summary>
+            Runs the request
+            </summary>
+            <param name="url">URL to use</param>
+            <returns>A <see cref="T:System.Net.Http.HttpResponseMessage"/></returns>
+        </member>
+        <member name="T:Faker.GeoLocation">
+            <summary>
+            Geographic Location class
+            </summary>
+        </member>
+        <member name="M:Faker.GeoLocation.Latitude">
+            <summary>
+            Gets a random latitude between -90 to 90
+            </summary>
+            <returns>Double of latitude value between -90 to 90</returns>
+        </member>
+        <member name="M:Faker.GeoLocation.Longitude">
+            <summary>
+            Gets a random longitude between -180 to 180
+            </summary>
+            <returns>Double of longitude value between -180 to 180</returns>
+        </member>
+        <member name="T:Faker.Images">
+            <summary>
+            Static images class
+            </summary>
+        </member>
+        <member name="M:Faker.Images.PNG">
+            <summary>
+            Gets a PNG image
+            </summary>
+            <returns>An image of format PNG</returns>
+        </member>
+        <member name="M:Faker.Images.JPEG">
+            <summary>
+            Gets an JPEG image
+            </summary>
+            <returns>An image of format JPEG</returns>
+        </member>
+        <member name="M:Faker.Images.BMP">
+            <summary>
+            Gets a BMP image
+            </summary>
+            <returns>An image of format BMP</returns>
+        </member>
+        <member name="M:Faker.Images.GetImage(System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            Gets the image
+            </summary>
+            <param name="format">Format to implement</param>
+            <returns>An image of specified image format</returns>
+        </member>
+        <member name="T:Faker.Internet">
+            <summary>
+            Static internet class
+            </summary>
+        </member>
+        <member name="M:Faker.Internet.Host">
+            <summary>
+            Gets a random host
+            </summary>
+            <returns>Host as string</returns>
+        </member>
+        <member name="M:Faker.Internet.IPv4">
+            <summary>
+            Gets a random IP v4 address
+            </summary>
+            <returns>IP v4 address as string</returns>
+        </member>
+        <member name="M:Faker.Internet.TopDomainSuffix">
+            <summary>
+            Gets a random top domain suffix
+            </summary>
+            <returns>Top domain suffix as string</returns>
+        </member>
+        <member name="M:Faker.Internet.TopCountryDomainSuffix">
+            <summary>
+            Gets a random top country domain suffix
+            </summary>
+            <returns>Top country domain suffix as string</returns>
+        </member>
+        <member name="M:Faker.Internet.DomainSuffix">
+            <summary>
+            Gets a random  domain suffix
+            </summary>
+            <returns>Domain suffix as string</returns>
+        </member>
+        <member name="M:Faker.Internet.IPv6">
+            <summary>
+            Gets a random IP v6 address
+            </summary>
+            <returns>IP v6 address as string</returns>
+        </member>
+        <member name="M:Faker.Internet.Mac">
+            <summary>
+            Gets a random MAC address
+            </summary>
+            <returns>MAC address as string</returns>
+        </member>
+        <member name="M:Faker.Internet.LocalHost">
+            <summary>
+            Gets the local host address
+            </summary>
+            <returns>Local host address as string</returns>
+        </member>
+        <member name="M:Faker.Internet.Protocol">
+            <summary>
+            Gets a random protocol
+            </summary>
+            <returns>Protocol as string</returns>
+        </member>
+        <member name="T:Faker.Lorem">
+            <summary>
+            Static word class
+            </summary>
+        </member>
+        <member name="M:Faker.Lorem.Sentence(System.Int32)">
+            <summary>
+            Gets a sentence with a number of words
+            </summary>
+            <param name="numberOfWords">Number of words</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Sentence">
+            <summary>
+            Gets a sentence with a random number of words
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Sentences(System.Int32)">
+            <summary>
+            Gets a number of sentences
+            </summary>
+            <param name="number">Number of sentences</param>
+            <returns>A list of <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Sentences">
+            <summary>
+            Gets a random number of sentences
+            </summary>
+            <returns>A list of <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Word">
+            <summary>
+            Gets a random word from the list
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Words(System.Int32)">
+            <summary>
+            Gets a list of words
+            </summary>
+            <param name="number">Number of words</param>
+            <returns>A list of <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Words">
+            <summary>
+            Gets a random amount of words
+            </summary>
+            <returns>A list of <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Letter">
+            <summary>
+            Gets a random letter
+            </summary>
+            <returns>A <see cref="T:System.Char"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Letters(System.Int32)">
+            <summary>
+            Gets a number of random letters
+            </summary>
+            <param name="number">Number of letters</param>
+            <returns>A list of <see cref="T:System.Char"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Letters">
+            <summary>
+            Gets a random amount of letters
+            </summary>
+            <returns>A list of <see cref="T:System.Char"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.FirstCharToUpper(System.String)">
+            <summary>
+            Method to take a string and make the first char uppercase
+            </summary>
+            <param name="input">String input</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Paragraph(System.Int32)">
+            <summary>
+            Gets a paragraph with a number of sentences
+            </summary>
+            <param name="numberOfSentences">Number of sentences</param>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Paragraph">
+            <summary>
+            Gets a paragraph with a random number of sentences
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Paragraphs(System.Int32)">
+            <summary>
+            Gets a number of paragraphs with random amount of sentences
+            </summary>
+            <param name="numberOfParagraphs">Number of paragraphs</param>
+            <returns>A list of <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Lorem.Paragraphs">
+            <summary>
+            Gets a random number of paragraphs with random amount of sentences
+            </summary>
+            <returns>A list of <see cref="T:System.String"/></returns>
+        </member>
+        <member name="T:Faker.Models.FuelPricesModel">
+            <summary>
+            Model: Fuel Prices
+            </summary>
+        </member>
+        <member name="P:Faker.Models.FuelPricesModel.CompressedNaturalGas">
+            <summary>
+            Compressed Natural Gas
+            </summary>
+        </member>
+        <member name="P:Faker.Models.FuelPricesModel.Diesel">
+            <summary>
+            Diesel
+            </summary>
+        </member>
+        <member name="P:Faker.Models.FuelPricesModel.E85">
+            <summary>
+            E85
+            </summary>
+        </member>
+        <member name="P:Faker.Models.FuelPricesModel.Electric">
+            <summary>
+            Electric
+            </summary>
+        </member>
+        <member name="P:Faker.Models.FuelPricesModel.LPG">
+            <summary>
+            LPG
+            </summary>
+        </member>
+        <member name="P:Faker.Models.FuelPricesModel.Midgrade">
+            <summary>
+            Midgrade
+            </summary>
+        </member>
+        <member name="P:Faker.Models.FuelPricesModel.Premium">
+            <summary>
+            Premium
+            </summary>
+        </member>
+        <member name="P:Faker.Models.FuelPricesModel.Regular">
+            <summary>
+            Regular
+            </summary>
+        </member>
+        <member name="T:Faker.Models.YearAdjustable51">
+            <summary>
+            Model for loading from the XML file
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51.Percentage">
+            <summary>
+            Percentage
+            </summary>
+        </member>
+        <member name="T:Faker.Models.YearAdjustable51JSON">
+            <summary>
+            YearAdjustable51JSON
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.DataSet">
+            <summary>
+            DataSet
+            </summary>
+        </member>
+        <member name="T:Faker.Models.YearAdjustable51JSON.Dataset">
+            <summary>
+            Dataset
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.dataset_code">
+            <summary>
+            dataset_code
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.database_code">
+            <summary>
+            database_code
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.name">
+            <summary>
+            name
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.description">
+            <summary>
+            description
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.refreshed_at">
+            <summary>
+            refreshed_at
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.newest_available_date">
+            <summary>
+            newest_available_date
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.oldest_available_date">
+            <summary>
+            oldest_available_date
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.column_names">
+            <summary>
+            column_names
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.frequency">
+            <summary>
+            frequency
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.type">
+            <summary>
+            type
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.premium">
+            <summary>
+            premium
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.limit">
+            <summary>
+            limit
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.transform">
+            <summary>
+            transform
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.column_index">
+            <summary>
+            column_index
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.start_date">
+            <summary>
+            start_date
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.end_date">
+            <summary>
+            end_date
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.data">
+            <summary>
+            data
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.collapse">
+            <summary>
+            collapse
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.order">
+            <summary>
+            order
+            </summary>
+        </member>
+        <member name="P:Faker.Models.YearAdjustable51JSON.Dataset.database_id">
+            <summary>
+            database_id
+            </summary>
+        </member>
+        <member name="T:Faker.Movie">
+            <summary>
+            Static movie class
+            </summary>
+        </member>
+        <member name="T:Faker.Music">
+            <summary>
+            Static music class
+            </summary>
+        </member>
+        <member name="T:Faker.Name">
+            <summary>
+            Static name class
+            </summary>
+        </member>
+        <member name="M:Faker.Name.MaleFirstName">
+            <summary>
+            Gets a random male first name
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Name.FemaleFirstName">
+            <summary>
+            Gets a random female first name
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Name.LastName">
+            <summary>
+            Gets a random last name
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Name.FullName">
+            <summary>
+            Gets a random full name
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Name.FirstName">
+            <summary>
+            Gets a random first name
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Name.Gender">
+            <summary>
+            Gets a random gender
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="M:Faker.Name.Ethnicity">
+            <summary>
+            Gets a random ethnicity
+            </summary>
+            <returns>A string value</returns>
+        </member>
+        <member name="T:Faker.Number">
+            <summary>
+            Number class used to generate random numbers
+            </summary>
+        </member>
+        <member name="M:Faker.Number.RandomNumber(System.Int32,System.Int32)">
+            <summary>
+            Gets a random number
+            </summary>
+            <param name="min">Minimum value</param>
+            <param name="max">Maximum value</param>
+            <returns>Integer of the random number</returns>
+        </member>
+        <member name="M:Faker.Number.RandomNumber(System.Int64,System.Int64)">
+            <summary>
+            Method to get a random long value
+            </summary>
+            <param name="min">Minimum long</param>
+            <param name="max">Maximum long</param>
+            <returns>A <see cref="T:System.Int64"/></returns>
+        </member>
+        <member name="M:Faker.Number.NextBytes(System.Byte[])">
+            <summary>
+            Method to get the next bytes
+            </summary>
+            <param name="buffer">Byte Array</param>
+        </member>
+        <member name="M:Faker.Number.RandomNumber(System.Int32)">
+            <summary>
+            Gets a random number from 0 to max variable
+            </summary>
+            <param name="max">Max integer to use</param>
+            <returns>Integer number</returns>
+        </member>
+        <member name="M:Faker.Number.RandomNumber">
+            <summary>
+            Gets a random number from 0 to any
+            </summary>
+            <returns>Integer number</returns>
+        </member>
+        <member name="M:Faker.Number.NegativeNumber(System.Int32)">
+            <summary>
+            Gets a random negative number.  Pass in a positive value
+            </summary>
+            <param name="max">Max number positive</param>
+            <returns>A negative integer</returns>
+        </member>
+        <member name="M:Faker.Number.Even(System.Int32,System.Int32)">
+            <summary>
+            Gets the next even number
+            </summary>
+            <param name="min">Minimum value</param>
+            <param name="max">Maximum value</param>
+            <returns>Integer of even number</returns>
+        </member>
+        <member name="M:Faker.Number.Odd(System.Int32,System.Int32)">
+            <summary>
+            Gets the next odd number
+            </summary>
+            <param name="min">Minimum value</param>
+            <param name="max">Maximum value</param>
+            <returns>Integer of old number</returns>
+        </member>
+        <member name="M:Faker.Number.Double">
+            <summary>
+            Gets the next double
+            </summary>
+            <returns>Random double value</returns>
+        </member>
+        <member name="M:Faker.Number.Bool">
+            <summary>
+            Gets a random boolean value
+            </summary>
+            <returns>Boolean of true or false</returns>
+        </member>
+        <member name="T:Faker.Person">
+            <summary>
+            Static person class
+            </summary>
+        </member>
+        <member name="M:Faker.Person.Ssn">
+            <summary>
+            Gets a random SSN
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="T:Faker.Phone">
+            <summary>
+            Static phone class
+            </summary>
+        </member>
+        <member name="M:Faker.Phone.GetPhoneNumber">
+            <summary>
+            Gets a random phone number
+            </summary>
+            <returns>A <see cref="T:System.String"/> of a random phone number</returns>
+        </member>
+        <member name="M:Faker.Phone.GetShortPhoneNumber">
+            <summary>
+            Gets a short phone number
+            </summary>
+            <returns>A <see cref="T:System.String"/> of a short phone number</returns>
+        </member>
+        <member name="M:Faker.Phone.FormatPhoneNumber">
+            <summary>
+            Gets a random phone number format
+            </summary>
+            <returns>A <see cref="T:System.String"/> of a random format</returns>
+        </member>
+        <member name="T:Faker.Sports">
+            <summary>
+            Static class for sport generation
+            </summary>
+        </member>
+        <member name="M:Faker.Sports.SportType">
+            <summary>
+            Grab a random sport type
+            </summary>
+            <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Faker.Sports.SportTypes">
+            <summary>
+            Gets a list of sport types
+            </summary>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/></returns>
+        </member>
+        <member name="M:Faker.Sports.SportTypes(System.Int32)">
+            <summary>
+            Gets a list of sport types
+            </summary>
+            <param name="number">Number of times</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/></returns>
+        </member>
+        <member name="T:Faker.Time">
+            <summary>
+            Static class for time generation
+            </summary>
+        </member>
+        <member name="T:Faker.User">
+            <summary>
+            Static user class
+            </summary>
+        </member>
+        <member name="M:Faker.User.Email">
+            <summary>
+            Gets an email address
+            </summary>
+            <returns>An email address as a string</returns>
+        </member>
+        <member name="M:Faker.User.Username">
+            <summary>
+            Gets a random username
+            </summary>
+            <returns>A username as a string</returns>
+        </member>
+        <member name="M:Faker.User.Password(System.Int32,System.Int32)">
+            <summary>
+            Gets a random password
+            </summary>
+            <param name="length">Length of password</param>
+            <param name="numberOfSpecialChars">Number of special characters to use</param>
+            <returns>String of password</returns>
+        </member>
+        <member name="M:Faker.User.Password(System.Int32,System.Boolean)">
+            <summary>
+            Gets a random password
+            </summary>
+            <param name="length">Length of password</param>
+            <param name="useSpecialChars">Use special characters.  If true, random number of characters</param>
+            <returns>Password as string</returns>
+        </member>
+        <member name="M:Faker.User.Password(System.Int32)">
+            <summary>
+            Gets a random password.  Will create a password 5 - 20 characters
+            </summary>
+            <param name="numberOfSpecialChars">Number of special characters</param>
+            <returns>Password as string</returns>
+        </member>
+        <member name="M:Faker.User.Password">
+            <summary>
+            Gets a random password
+            Random length and number of special characters
+            </summary>
+            <returns>Password as string</returns>
+        </member>
+        <member name="M:Faker.User.GeneratePassword(System.Int32,System.Int32)">
+            <summary>
+            Generate password method
+            </summary>
+            <param name="length">Length to use</param>
+            <param name="nonAlphaNumericChars">Number of special characters</param>
+            <returns>Password as string</returns>
+        </member>
+        <member name="T:Faker.Utilities">
+            <summary>
+            Static utilities class
+            </summary>
+        </member>
+        <member name="M:Faker.Utilities.Character">
+            <summary>
+            Gets a random alpha character
+            </summary>
+            <returns>Character to use</returns>
+        </member>
+        <member name="M:Faker.Utilities.AlphaNumeric">
+            <summary>
+            Gets a random alpha numeric char
+            </summary>
+            <returns>A random char</returns>
+        </member>
+        <member name="M:Faker.Utilities.Numerify(System.String)">
+            <summary>
+            Method not implemented
+            </summary>
+            <param name="s">String to use</param>
+            <returns>String numbered</returns>
+        </member>
+        <member name="T:Faker.Vehicle">
+            <summary>
+            Static vehicle class
+            </summary>
+        </member>
+        <member name="T:Faker.XML">
+            <summary>
+            XML class to handle loading data.xml
+            </summary>
+        </member>
+        <member name="F:Faker.XML.docLock">
+            <summary>
+            XDocument lock
+            </summary>
+        </member>
+        <member name="F:Faker.XML.doc">
+            <summary>
+            XDocument variable
+            </summary>
+        </member>
+        <member name="P:Faker.XML.Doc">
+            <summary>
+            Gets the XDocument to use
+            </summary>
+        </member>
+        <member name="M:Faker.XML.GetListString(System.Xml.Linq.XName)">
+            <summary>
+            Gets the list of the data
+            </summary>
+            <param name="node">Which node to select</param>
+            <returns>A list of strings</returns>
+        </member>
+        <member name="M:Faker.XML.GetListString(System.Xml.Linq.XName,System.Xml.Linq.XName)">
+            <summary>
+            Gets the list of the data
+            </summary>
+            <param name="topNode">Which top node to select</param>
+            <param name="node">Which node to select</param>
+            <returns>A list of strings</returns>
+        </member>
+        <member name="M:Faker.XML.GetListObject(System.Xml.Linq.XName,System.Xml.Linq.XName)">
+            <summary>
+            Gets a object for grabbing node attributes
+            </summary>
+            <param name="topNode">Top node name</param>
+            <param name="node">Node name</param>
+            <returns>A <see cref="T:System.Collections.Generic.List`1"/></returns>
+        </member>
+    </members>
+</doc>

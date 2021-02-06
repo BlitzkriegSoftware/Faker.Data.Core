@@ -19,10 +19,12 @@ namespace Faker
     /// </summary>
     public static class Computer
     {
+#pragma warning disable IDE0044 // Add readonly modifier
         private static JObject mimes;
         private static string[] exts;
         private static string[] types;
-        private static string[] mimeKeys;
+        // private static string[] mimeKeys;
+#pragma warning restore IDE0044 // Add readonly modifier
 
         /// <summary>
         /// Get a random file name
@@ -112,8 +114,7 @@ namespace Faker
         /// <returns>A <see cref="string"/></returns>
         public static string FileExt(string mimeType = null)
         {
-            JToken mime;
-            if (mimeType != null && mimes.TryGetValue(mimeType, out mime) && mime.Type == JTokenType.Object)
+            if (mimeType != null && mimes.TryGetValue(mimeType, out JToken mime) && mime.Type == JTokenType.Object)
             {
                 var mimeObject = mime as JObject;
                 var temp = mimeObject["extensions"] as JArray;
@@ -155,10 +156,12 @@ namespace Faker
                     {
                         throw new ArgumentException(Lorem.Sentence(), Lorem.Word());
                     }
+#pragma warning disable CA1031 // Used elsewhere
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 1:
@@ -166,10 +169,12 @@ namespace Faker
                     {
                         throw new ArgumentNullException(Lorem.Word(), Lorem.Sentence());
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 2:
@@ -177,10 +182,12 @@ namespace Faker
                     {
                         throw new BadImageFormatException(Lorem.Sentence(), Lorem.Word());
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 3:
@@ -188,10 +195,12 @@ namespace Faker
                     {
                         throw new IndexOutOfRangeException(Lorem.Sentence());
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 4:
@@ -199,10 +208,12 @@ namespace Faker
                     {
                         throw new ArithmeticException(Lorem.Sentence());
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 5:
@@ -210,10 +221,12 @@ namespace Faker
                     {
                         throw new OutOfMemoryException(Lorem.Sentence());
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 6:
@@ -221,10 +234,12 @@ namespace Faker
                     {
                         throw new FormatException(Lorem.Sentence());
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 7:
@@ -232,10 +247,12 @@ namespace Faker
                     {
                         throw new DivideByZeroException();
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 8:
@@ -243,10 +260,12 @@ namespace Faker
                     {
                         throw new EndOfStreamException(Lorem.Sentence());
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 9:
@@ -254,10 +273,12 @@ namespace Faker
                     {
                         throw new FileNotFoundException("File not found...", Path.GetRandomFileName());
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 10:
@@ -265,10 +286,12 @@ namespace Faker
                     {
                         throw new NotImplementedException();
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
                 case 11:
@@ -276,10 +299,12 @@ namespace Faker
                     {
                         throw new UnauthorizedAccessException();
                     }
+#pragma warning disable CA1031 // Do not catch general exception types
                     catch (Exception e)
                     {
                         exe = e;
                     }
+#pragma warning restore CA1031 // Do not catch general exception types
 
                     break;
             }

@@ -14,7 +14,7 @@ namespace Faker
     public static class Number
     {
         private static int seed = Environment.TickCount;
-        private static ThreadLocal<Random> random = new ThreadLocal<Random>(() => new Random(Interlocked.Increment(ref seed)));
+        private static readonly ThreadLocal<Random> random = new ThreadLocal<Random>(() => new Random(Interlocked.Increment(ref seed)));
 
         /// <summary>
         /// Gets a random number
@@ -29,7 +29,9 @@ namespace Faker
                 throw new ArgumentException("Max number must be greater than min");
             }
 
+#pragma warning disable SCS0005 // Weak random generator
             return random.Value.Next(min, max);
+#pragma warning restore SCS0005 // Weak random generator
         }
 
         /// <summary>
@@ -50,10 +52,12 @@ namespace Faker
         /// <summary>
         /// Method to get the next bytes
         /// </summary>
-        /// <param name="buffer">A <see cref="byte[]"/></param>
+        /// <param name="buffer">Byte Array</param>
         public static void NextBytes(byte[] buffer)
         { 
+#pragma warning disable SCS0005 // Weak random generator
             random.Value.NextBytes(buffer);
+#pragma warning restore SCS0005 // Weak random generator
         }
 
         /// <summary>
@@ -63,7 +67,9 @@ namespace Faker
         /// <returns>Integer number</returns>
         public static int RandomNumber(int max)
         {
+#pragma warning disable SCS0005 // Weak random generator
             return random.Value.Next(Math.Abs(max));
+#pragma warning restore SCS0005 // Weak random generator
         }
 
         /// <summary>
@@ -72,7 +78,9 @@ namespace Faker
         /// <returns>Integer number</returns>
         public static int RandomNumber()
         {
+#pragma warning disable SCS0005 // Weak random generator
             return random.Value.Next();
+#pragma warning restore SCS0005 // Weak random generator
         }
 
         /// <summary>
@@ -82,7 +90,9 @@ namespace Faker
         /// <returns>A negative integer</returns>
         public static int NegativeNumber(int max)
         {
+#pragma warning disable SCS0005 // Weak random generator
             return random.Value.Next(1, Math.Abs(max)) * -1;
+#pragma warning restore SCS0005 // Weak random generator
         }
 
         /// <summary>
@@ -93,7 +103,7 @@ namespace Faker
         /// <returns>Integer of even number</returns>
         public static int Even(int min, int max)
         {
-            var result = 0;
+            int result;
             do
             {
                 result = RandomNumber(min, max);
@@ -110,7 +120,7 @@ namespace Faker
         /// <returns>Integer of old number</returns>
         public static int Odd(int min = 0, int max = 1)
         {
-            int result = 0;
+            int result;
             do
             {
                 result = RandomNumber(min, max);
@@ -125,7 +135,9 @@ namespace Faker
         /// <returns>Random double value</returns>
         public static double Double()
         {
+#pragma warning disable SCS0005 // Weak random generator
             return random.Value.NextDouble();
+#pragma warning restore SCS0005 // Weak random generator
         }
 
         /// <summary>
