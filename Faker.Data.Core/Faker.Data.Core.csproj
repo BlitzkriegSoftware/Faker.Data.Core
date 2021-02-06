@@ -12,11 +12,13 @@
     <PackageTags>Fake-Data</PackageTags>
     <PackageReleaseNotes>1.2.0 - Updated NuGets and Documentation, Cleanup
 1.1.0 - This is the first port, I dropped Finince.cs for speed</PackageReleaseNotes>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <PackageIcon>blizkrieglogo300.png</PackageIcon>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <FileVersion>1.2.0.0</FileVersion>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageId>Faker.Data.Core.Blitz</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
